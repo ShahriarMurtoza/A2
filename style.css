@@ -1,0 +1,58 @@
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px 0px 200px;
+
+    text-align: center;
+}
+
+.grad {
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    background-clip: text;
+    color: transparent;
+}
+
+.btn,
+.btn-2 {
+    border-radius: 300px;
+    border: none;
+    color: white;
+    padding: 12px;
+    margin-top: 20px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1)));
+
+}
+
+.mic {
+    position: absolute;
+    bottom: 210px;
+    right: 1030px;
+    top: 280px;
+    
+
+    z-index: 1;
+}
+
+
+.hero-circle {
+    position: absolute;
+    bottom: 200px;
+    right: 610px;
+    top: 200px;
+    margin: 0px 7px 0px;
+
+}
+
+
+
+
+.btn-2 img {
+    width: 24px;
+}
