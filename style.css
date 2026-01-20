@@ -423,6 +423,7 @@ footer {
     .hero {
         height: auto;
         padding: 120px 0 60px;
+        height: 100vh;
     }
 
     .hero h1 {
@@ -431,7 +432,7 @@ footer {
     }
 
     .hero-visual {
-        transform: scale(0.85);
+        transform: scale(0.80);
         margin-bottom: 20px;
     }
 
