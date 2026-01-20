@@ -18,7 +18,7 @@ body {
     padding: 0 20px;
 }
 
-/* Navbar */
+
 nav {
     padding: 20px 0;
     position: absolute;
@@ -73,7 +73,7 @@ nav .container {
     cursor: pointer;
 }
 
-/* Hero Section */
+
 .hero {
     height: 100vh;
     background: url('./assets/hero-bg.png') no-repeat center center/cover;
@@ -403,7 +403,7 @@ footer {
     font-size: 14px;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     .container {
         padding: 0 15px;
