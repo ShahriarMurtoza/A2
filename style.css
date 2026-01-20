@@ -104,6 +104,21 @@ nav .container {
     transform: translate(-50%, -50%);
     width: 100px;
 }
+.hero-visual:hover .microphone {
+    animation: floatMic 0.8s ease-in-out infinite;
+}
+@keyframes floatMic {
+    0% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(-15px);
+    }
+    100% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+}
+
 
 .badge-new {
     position: absolute;
@@ -159,7 +174,6 @@ nav .container {
     font-weight: 600;
 }
 
-/* About Section */
 .about {
     padding: 100px 0;
     text-align: center;
@@ -196,7 +210,7 @@ nav .container {
     color: rgba(255, 255, 255, 0.7);
 }
 
-/* Why Choose */
+
 .why-choose {
     padding: 100px 0;
 }
@@ -259,7 +273,7 @@ nav .container {
     font-size: 14px;
 }
 
-/* Featured Episodes */
+
 .episodes {
     padding: 100px 0;
 }
@@ -289,8 +303,6 @@ nav .container {
     background-position: center;
 }
 
-
-
 .episode-info {
     padding: 25px;
 }
@@ -316,7 +328,7 @@ nav .container {
 
 }
 
-/* Meet The Host */
+
 .host-section {
     padding: 100px 0;
 }
@@ -366,7 +378,7 @@ nav .container {
     height: 20px;
 }
 
-/* Footer */
+
 
 footer {
     padding: 100px 0px 40px;
@@ -409,7 +421,6 @@ footer {
         padding: 0 15px;
     }
 
-    /* Navbar Mobile */
     .nav-links,
     .btn-subscribe {
         display: none;
@@ -419,7 +430,6 @@ footer {
         display: block;
     }
 
-    /* Hero Mobile */
     .hero {
         height: auto;
         padding: 120px 0 60px;
@@ -451,7 +461,6 @@ footer {
         justify-content: center;
     }
 
-    /* About Mobile */
     .about h2 {
         font-size: 28px;
     }
@@ -464,8 +473,6 @@ footer {
     .stat-item h3 {
         font-size: 32px;
     }
-
-    /* Why Choose Mobile */
     .why-choose h2 {
         font-size: 28px;
     }
@@ -483,8 +490,6 @@ footer {
     .feature-card {
         padding: 25px;
     }
-
-    /* Episodes Mobile */
     .episodes h2 {
         font-size: 28px;
     }
@@ -492,8 +497,6 @@ footer {
     .episodes-grid {
         grid-template-columns: 1fr;
     }
-
-    /* Host Mobile */
     .host-section h2 {
         font-size: 28px;
     }
